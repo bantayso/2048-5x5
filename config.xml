@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.bantayso.a2048" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>a2048</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    	<feature name="SocialSharing">
+	  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+	</feature>
+	
+	<gap:plugin name="nl.x-services.plugins.socialsharing" />
+</widget>

@@ -1,0 +1,20 @@
+CACHE MANIFEST
+# @@timestamp
+
+CACHE:
+index.html
+js/animframe_polyfill.js
+js/application.js
+js/game_manager.js
+js/grid.js
+js/html_actuator.js
+js/keyboard_input_manager.js
+js/local_score_manager.js
+js/tile.js
+style/main.css
+meta/apple-touch-icon.png
+
+NETWORK:
+# Always try to fetch analytics links
+# and any other external links
+*
